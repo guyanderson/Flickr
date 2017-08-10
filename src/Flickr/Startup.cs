@@ -10,6 +10,8 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Configuration;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore;
+using Flickr.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 namespace Flickr
 {
@@ -28,17 +30,20 @@ namespace Flickr
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
-                      
+
+            services.AddEntityFramework().AddDbContext<FlickrDbContext>(options => options.UseSqlServer(Configuration["ConnectionStrings:DefaultConnection"]));
+            services.AddIdentity<ApplicationUser, IdentityRole>().AddEntityFrameworkStores<FlickrDbContext>().AddDefaultTokenProviders();
+
         }
 
         public void Configure(IApplicationBuilder app)
         {
-
+            app.UseIdentity();
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    template: "{controller=Account}/{action=Index}/{id?}");
             });
 
             app.Run(async (context) =>
