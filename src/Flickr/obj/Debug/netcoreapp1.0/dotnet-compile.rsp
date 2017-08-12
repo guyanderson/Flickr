@@ -220,6 +220,8 @@ C:\Users\Guy\Documents\Visual Studio 2015\Projects\Flickr\src\Flickr\Controllers
 C:\Users\Guy\Documents\Visual Studio 2015\Projects\Flickr\src\Flickr\Controllers\PictureController.cs
 C:\Users\Guy\Documents\Visual Studio 2015\Projects\Flickr\src\Flickr\Migrations\20170810001731_Initial.cs
 C:\Users\Guy\Documents\Visual Studio 2015\Projects\Flickr\src\Flickr\Migrations\20170810001731_Initial.Designer.cs
+C:\Users\Guy\Documents\Visual Studio 2015\Projects\Flickr\src\Flickr\Migrations\20170810214231_PictureClm.cs
+C:\Users\Guy\Documents\Visual Studio 2015\Projects\Flickr\src\Flickr\Migrations\20170810214231_PictureClm.Designer.cs
 C:\Users\Guy\Documents\Visual Studio 2015\Projects\Flickr\src\Flickr\Migrations\FlickrDbContextModelSnapshot.cs
 C:\Users\Guy\Documents\Visual Studio 2015\Projects\Flickr\src\Flickr\Models\ApplicationUser.cs
 C:\Users\Guy\Documents\Visual Studio 2015\Projects\Flickr\src\Flickr\Models\FlickrDbContext.cs

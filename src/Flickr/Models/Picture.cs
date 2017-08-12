@@ -12,7 +12,23 @@ namespace Flickr.Models
     {
         [Key]
         public int Id { get; set; }
-        public byte[] img { get; set; }
+        public byte[] Img { get; set; }
+        public string UserId { get; set; }
         public virtual ApplicationUser User { get; set; }
+
+        public Picture(Byte[] img)
+        {
+            Img = img;
+        }
+
+
+        public string getImage()
+
+        {
+             //Convert byte data array to string that '<img src=' can read
+            var base64File = Convert.ToBase64String(Img);
+            return String.Format("data:image/gif;base64,{0}", base64File);
+        }
+
     }
 }

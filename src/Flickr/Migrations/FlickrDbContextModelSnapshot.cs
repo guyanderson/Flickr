@@ -70,9 +70,9 @@ namespace Flickr.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<string>("UserId");
+                    b.Property<byte[]>("Img");
 
-                    b.Property<byte[]>("img");
+                    b.Property<string>("UserId");
 
                     b.HasKey("Id");
 

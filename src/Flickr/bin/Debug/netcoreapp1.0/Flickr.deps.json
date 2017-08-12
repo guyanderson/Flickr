@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v1.0",
-    "signature": "0230c7b4e6befa78e2de7e0cc778b55f6b3bf0a3"
+    "signature": "8656a03f641be83035e28da73b73f64dbbc48fc4"
   },
   "compilationOptions": {
     "defines": [
@@ -36,7 +36,8 @@
           "Microsoft.Extensions.Logging.Debug": "1.0.0",
           "Microsoft.Extensions.Options.ConfigurationExtensions": "1.0.0",
           "Microsoft.NETCore.App": "1.0.0",
-          "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.0.0"
+          "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.0.0",
+          "bootstrap": "3.3.6"
         },
         "runtime": {
           "Flickr.dll": {}
@@ -45,6 +46,12 @@
           "Flickr.dll": {}
         }
       },
+      "bootstrap/3.3.6": {
+        "dependencies": {
+          "jQuery": "1.9.1"
+        }
+      },
+      "jQuery/1.9.1": {},
       "Microsoft.ApplicationInsights/2.1.0": {
         "dependencies": {
           "System.Collections": "4.0.11",
@@ -3627,6 +3634,16 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "bootstrap/3.3.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-B6avgcsN2KYxjpqO6jdN+hpPjjeQe5Rb5t/oTA6b4tWXdx80U/aKG6Up0bm+JsPTVsP9/VXc8qfVBicxiaEbAA=="
+    },
+    "jQuery/1.9.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HiX9icLyiJGgiL5EOIn0d1MBPHVV2M9mzWT4mANdniDNR51RvAFTyKEXEd2+5yQJ4PJ5xePOR61Vjj/omQzYcw=="
     },
     "Microsoft.ApplicationInsights/2.1.0": {
       "type": "package",

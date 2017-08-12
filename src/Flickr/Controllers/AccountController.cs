@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Identity;
 using Flickr.Models;
 using Flickr.ViewModels;
+using System.Security.Claims;
 
 namespace Flickr.Controllers
 {
@@ -22,9 +23,11 @@ namespace Flickr.Controllers
             _db = db;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            var userId = this.User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            var currentUser = await _userManager.FindByIdAsync(userId);
+            return View(_db.Pictures.Where(x => x.User.Id == currentUser.Id));
         }
 
         public IActionResult Register()
@@ -58,7 +61,7 @@ namespace Flickr.Controllers
             Microsoft.AspNetCore.Identity.SignInResult result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, isPersistent: true, lockoutOnFailure: false);
             if (result.Succeeded)
             {
-                return View("UserProfile");
+                return View("Index");
             }
             else
             {

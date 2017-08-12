@@ -1,10 +1,31 @@
-﻿@{
-    ViewData["Title"] = "Index";
+﻿@model Flickr.Models.Picture
+
+@{
+    ViewData["Title"] = "Create";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-
+<br />
+<br />
 <form method="post" asp-action="Create" asp-controller="Picture" enctype="multipart/form-data">
     <input type="file" name="files" multiple />
     <input type="submit" value="Upload" />
 </form>
+<br />
+
+@using (Html.BeginForm())
+{
+    <p>Upload New Image</p>
+    @Html.EditorFor(model => model.Img)
+
+
+    <input type="submit" value="Create" class="btn btn-default" />
+}
+<br />
+@Html.ActionLink("Back to Profile", "Index")
+
+@*
+
+    @Html.LabelFor(model => model.UserId)
+    @Html.DropDownList("UserId")
+*@
