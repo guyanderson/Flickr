@@ -16,11 +16,14 @@
 
     @if (Model != null)
     { 
- @*  @foreach (var photo in Model)
-    {
-        <img src="data:image/gif;base64,@System.Convert.ToBase64String(photo.Img)" />
+        @foreach (var photo in Model)
+        {
+            @if (photo.Img.Length > 0)
+            {
+                <img src="data:image/jpg;base64,@System.Convert.ToBase64String(photo.Img)" />
+            }
+        }
     }
-*@   }
     @Html.ActionLink("Create new", "Create", "Picture")
     <br />
     <br />

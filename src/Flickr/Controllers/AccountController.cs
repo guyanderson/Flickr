@@ -27,7 +27,8 @@ namespace Flickr.Controllers
         {
             var userId = this.User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
             var currentUser = await _userManager.FindByIdAsync(userId);
-            return View(_db.Pictures.Where(x => x.User.Id == currentUser.Id));
+            List<Picture> img = _db.Pictures.Where(x => x.User.Id == currentUser.Id.ToString()).ToList();
+            return View(img);
         }
 
         public IActionResult Register()

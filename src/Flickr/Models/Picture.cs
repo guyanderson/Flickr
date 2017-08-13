@@ -16,6 +16,10 @@ namespace Flickr.Models
         public string UserId { get; set; }
         public virtual ApplicationUser User { get; set; }
 
+        public Picture()
+        {
+        }
+
         public Picture(Byte[] img)
         {
             Img = img;
