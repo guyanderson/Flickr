@@ -1,5 +1,5 @@
---temp-output:C:\Users\Guy\Documents\Visual Studio 2015\Projects\Flickr\src\Flickr\obj\Debug\netcoreapp1.0\
---out:C:\Users\Guy\Documents\Visual Studio 2015\Projects\Flickr\src\Flickr\bin\Debug\netcoreapp1.0\Flickr.dll
+--temp-output:C:\Users\Guy\Desktop\Flickr\src\Flickr\obj\Debug\netcoreapp1.0\
+--out:C:\Users\Guy\Desktop\Flickr\src\Flickr\bin\Debug\netcoreapp1.0\Flickr.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -212,19 +212,19 @@
 --reference:C:\Users\Guy\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\Guy\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\Guy\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
---resource:"C:\Users\Guy\Documents\Visual Studio 2015\Projects\Flickr\src\Flickr\obj\Debug\netcoreapp1.0\Flickrdotnet-compile.deps.json",Flickr.deps.json
-C:\Users\Guy\Documents\Visual Studio 2015\Projects\Flickr\src\Flickr\Program.cs
-C:\Users\Guy\Documents\Visual Studio 2015\Projects\Flickr\src\Flickr\Startup.cs
-C:\Users\Guy\Documents\Visual Studio 2015\Projects\Flickr\src\Flickr\Controllers\AccountController.cs
-C:\Users\Guy\Documents\Visual Studio 2015\Projects\Flickr\src\Flickr\Controllers\HomeController.cs
-C:\Users\Guy\Documents\Visual Studio 2015\Projects\Flickr\src\Flickr\Controllers\PictureController.cs
-C:\Users\Guy\Documents\Visual Studio 2015\Projects\Flickr\src\Flickr\Migrations\20170810001731_Initial.cs
-C:\Users\Guy\Documents\Visual Studio 2015\Projects\Flickr\src\Flickr\Migrations\20170810001731_Initial.Designer.cs
-C:\Users\Guy\Documents\Visual Studio 2015\Projects\Flickr\src\Flickr\Migrations\20170810214231_PictureClm.cs
-C:\Users\Guy\Documents\Visual Studio 2015\Projects\Flickr\src\Flickr\Migrations\20170810214231_PictureClm.Designer.cs
-C:\Users\Guy\Documents\Visual Studio 2015\Projects\Flickr\src\Flickr\Migrations\FlickrDbContextModelSnapshot.cs
-C:\Users\Guy\Documents\Visual Studio 2015\Projects\Flickr\src\Flickr\Models\ApplicationUser.cs
-C:\Users\Guy\Documents\Visual Studio 2015\Projects\Flickr\src\Flickr\Models\FlickrDbContext.cs
-C:\Users\Guy\Documents\Visual Studio 2015\Projects\Flickr\src\Flickr\Models\Picture.cs
-C:\Users\Guy\Documents\Visual Studio 2015\Projects\Flickr\src\Flickr\ViewModels\LoginViewModel.cs
-C:\Users\Guy\Documents\Visual Studio 2015\Projects\Flickr\src\Flickr\ViewModels\RegisterViewModel.cs
+--resource:"C:\Users\Guy\Desktop\Flickr\src\Flickr\obj\Debug\netcoreapp1.0\Flickrdotnet-compile.deps.json",Flickr.deps.json
+C:\Users\Guy\Desktop\Flickr\src\Flickr\Program.cs
+C:\Users\Guy\Desktop\Flickr\src\Flickr\Startup.cs
+C:\Users\Guy\Desktop\Flickr\src\Flickr\Controllers\AccountController.cs
+C:\Users\Guy\Desktop\Flickr\src\Flickr\Controllers\HomeController.cs
+C:\Users\Guy\Desktop\Flickr\src\Flickr\Controllers\PictureController.cs
+C:\Users\Guy\Desktop\Flickr\src\Flickr\Migrations\20170810001731_Initial.cs
+C:\Users\Guy\Desktop\Flickr\src\Flickr\Migrations\20170810001731_Initial.Designer.cs
+C:\Users\Guy\Desktop\Flickr\src\Flickr\Migrations\20170810214231_PictureClm.cs
+C:\Users\Guy\Desktop\Flickr\src\Flickr\Migrations\20170810214231_PictureClm.Designer.cs
+C:\Users\Guy\Desktop\Flickr\src\Flickr\Migrations\FlickrDbContextModelSnapshot.cs
+C:\Users\Guy\Desktop\Flickr\src\Flickr\Models\ApplicationUser.cs
+C:\Users\Guy\Desktop\Flickr\src\Flickr\Models\FlickrDbContext.cs
+C:\Users\Guy\Desktop\Flickr\src\Flickr\Models\Picture.cs
+C:\Users\Guy\Desktop\Flickr\src\Flickr\ViewModels\LoginViewModel.cs
+C:\Users\Guy\Desktop\Flickr\src\Flickr\ViewModels\RegisterViewModel.cs

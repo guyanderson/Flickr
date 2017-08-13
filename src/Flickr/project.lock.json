@@ -3,10 +3,10 @@
   "version": 2,
   "targets": {
     ".NETCoreApp,Version=v1.0": {
-      "bootstrap/3.3.6": {
+      "bootstrap/3.3.7": {
         "type": "package",
         "dependencies": {
-          "jQuery": "[1.9.1, 3.0.0)"
+          "jQuery": "[1.9.1, 4.0.0)"
         }
       },
       "jQuery/1.9.1": {
@@ -4250,12 +4250,12 @@
     }
   },
   "libraries": {
-    "bootstrap/3.3.6": {
-      "sha512": "B6avgcsN2KYxjpqO6jdN+hpPjjeQe5Rb5t/oTA6b4tWXdx80U/aKG6Up0bm+JsPTVsP9/VXc8qfVBicxiaEbAA==",
+    "bootstrap/3.3.7": {
+      "sha512": "3YTWhPNh6UcnUvzw9u6A2/hy2w0h4lznxPbX6FY47lFia3+Ib4zBixTpW6YieYA/b2fLXbkjoD59OjcVF3cJXw==",
       "type": "package",
-      "path": "bootstrap/3.3.6",
+      "path": "bootstrap/3.3.7",
       "files": [
-        "bootstrap.3.3.6.nupkg.sha512",
+        "bootstrap.3.3.7.nupkg.sha512",
         "bootstrap.nuspec",
         "content/Content/bootstrap-theme.css",
         "content/Content/bootstrap-theme.css.map",
@@ -10792,7 +10792,7 @@
       "Microsoft.Extensions.Options.ConfigurationExtensions >= 1.0.0",
       "Microsoft.NETCore.App >= 1.0.0",
       "Microsoft.VisualStudio.Web.BrowserLink.Loader >= 14.0.0",
-      "bootstrap >= 3.3.6"
+      "bootstrap >= 3.3.7"
     ],
     ".NETCoreApp,Version=v1.0": []
   },

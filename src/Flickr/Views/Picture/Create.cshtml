@@ -9,23 +9,25 @@
 <br />
 <form method="post" asp-action="Create" asp-controller="Picture" enctype="multipart/form-data">
     <input type="file" name="files" multiple />
-    <input type="submit" value="Upload" />
+    <input type="submit" value="Upload" class="btn btn-default" />
 </form>
 <br />
 
-@using (Html.BeginForm())
-{
-    <p>Upload New Image</p>
-    @Html.EditorFor(model => model.Img)
 
-
-    <input type="submit" value="Create" class="btn btn-default" />
-}
 <br />
 @Html.ActionLink("Back to Profile", "Index")
 
 @*
+        @using (Html.BeginForm())
+    {
+        <p>Upload New Image</p>
+        @Html.EditorFor(model => model.Img)
 
-    @Html.LabelFor(model => model.UserId)
-    @Html.DropDownList("UserId")
+
+        <input type="submit" value="Create" class="btn btn-default" />
+    }
+
+
+        @Html.LabelFor(model => model.UserId)
+        @Html.DropDownList("UserId")
 *@

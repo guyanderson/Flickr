@@ -33,7 +33,7 @@
       "type": "platform"
     },
     "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.0.0",
-    "bootstrap": "3.3.6"
+    "bootstrap": "3.3.7"
   },
 
   "frameworks": {
